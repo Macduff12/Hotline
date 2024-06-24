@@ -1,0 +1,23 @@
+name: Upload Tests
+
+on:
+  push:
+    branches:
+      - main  # Запускається при пуші в гілку main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Archive tests folder
+      run: tar -czf tests.tar.gz tests
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: tests-folder
+        path: tests.tar.gz
