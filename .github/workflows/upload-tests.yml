@@ -1,23 +1,31 @@
-name: Upload Tests
+name: CI
 
 on:
   push:
     branches:
-      - main  # Запускається при пуші в гілку main
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  upload:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Archive tests folder
-      run: npm test
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: tests-folder
-        path: tests.tar.gz
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build TypeScript
+        run: npm run build  # Assuming you have a build script defined in package.json
+
+      - name: Run tests
+        run: npm test
