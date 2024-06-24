@@ -1,0 +1,22 @@
+{
+  "name": "hotline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macduff12/Hotline.git"
+  },
+  "author": "dima ostapchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Macduff12/Hotline/issues"
+  },
+  "homepage": "https://github.com/Macduff12/Hotline#readme"
+}
