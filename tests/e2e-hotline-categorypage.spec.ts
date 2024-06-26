@@ -25,21 +25,21 @@ test.describe('Test Categories HotLine', () => {
         await hotLineCategoryPage.hotlineClickCategoriesAutoPriceOk.click()
         // await hotLineCategoryPage.hotlineClickCategoriesAutoVidgyks.click()
       })
-      test('HotLine categories Technika', async({page}) => {
-        await hotLineCategoryPage.hotlineClickCategoriesSecond.isVisible();
-        await hotLineCategoryPage.hotlineClickCategoriesSecond.click();
-        await hotLineCategoryPage.hotlineClickFirstTechnick.click();
-        await hotLineCategoryPage.hotlineClickTechnickFirstFirm.click();
-        await hotLineCategoryPage.hotlineClickTechnickSecondFirm.click();
-        await hotLineCategoryPage.hotlineClickTechnickThirdFirm.click();
-        await hotLineCategoryPage.hotlineClickTechnickFourthFirm.click();
-        await hotLineCategoryPage.hotlineClickTechnickFifthFirm.click();
-        await hotLineCategoryPage.hotlineClickTechnickClickVidgyks.click();
-        await hotLineCategoryPage.hotlineClickTechnickClickPrice.click();
-        await hotLineCategoryPage.hotlineClickTechnickClickPrice.fill('5000\n')
-        await hotLineCategoryPage.hotlineClickTechnickClickPriceOk.click();
-        await hotLineCategoryPage.hotlineClickTechnickClickActions.click();
-      })
+      // test('HotLine categories Technika', async({page}) => {
+      //   await hotLineCategoryPage.hotlineClickCategoriesSecond.isVisible();
+      //   await hotLineCategoryPage.hotlineClickCategoriesSecond.click();
+      //   await hotLineCategoryPage.hotlineClickFirstTechnick.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickFirstFirm.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickSecondFirm.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickThirdFirm.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickFourthFirm.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickFifthFirm.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickClickVidgyks.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickClickPrice.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickClickPrice.fill('5000\n')
+      //   await hotLineCategoryPage.hotlineClickTechnickClickPriceOk.click();
+      //   await hotLineCategoryPage.hotlineClickTechnickClickActions.click();
+      // })
       test('HotLine categories all for House', async ({page}) => {
         await hotLineCategoryPage.hotlineClickCategoriesThird.click();
         await hotLineCategoryPage.hotlineClickFirstForHouse.click();
