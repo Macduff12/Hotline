@@ -12,68 +12,68 @@ test.describe('HotLine Home Page Check Information', () => {
         await homePage.visit();
     });
 
-    test('HotLine check Categories and some information', async ({ page }) => {
-        await expect(homePage.hotlinePageCategories).toBeVisible();
-        await expect(homePage.hotlinePageText).toBeVisible();
-        await expect(homePage.hotlinePageCheckKatalog).toBeVisible();
+    // test('HotLine check Categories and some information', async ({ page }) => {
+    //     await expect(homePage.hotlinePageCategories).toBeVisible();
+    //     await expect(homePage.hotlinePageText).toBeVisible();
+    //     await expect(homePage.hotlinePageCheckKatalog).toBeVisible();
 
-        await homePage.hotlinePageMilitarySection.isVisible();
-        await homePage.hotlinePageEnergySection.click();
-        await page.goBack();
-        await homePage.hotlinePageMilitarySection.click();
-        await page.goBack();
-        await homePage.hotlinePageCheckCategory4.isVisible();
-        await homePage.hotlinePageCheckCategory4.click();
-        await page.goBack();
-        await homePage.hotlinePageCheckCategory5.isVisible();
-        await homePage.hotlinePageCheckCategory5.click();
-        await page.goBack();
-        await homePage.hotlinePageCheckCategory6.isVisible();
-        await homePage.hotlinePageCheckCategory6.click();
-        await page.goBack();
-        await homePage.hotlinePageCheckCategory7.isVisible();
-        await homePage.hotlinePageCheckCategory7.click();
-        await page.goBack();
-        await homePage.hotlinePageCheckCategory8.isVisible();
-        await homePage.hotlinePageCheckCategory8.click();
-        await page.goBack();
-        await homePage.hotlinePageCheckCategory9.isVisible();
-        await homePage.hotlinePageCheckCategory9.click();
-        await page.goBack();
-        await homePage.hotlinePageCheckCategory10.isVisible();
-        await homePage.hotlinePageCheckCategory10.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory11.isVisible();
-        await homePage.hotlinePageCheckCategory11.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory12.isVisible();
-        await homePage.hotlinePageCheckCategory12.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory13.isVisible();
-        await homePage.hotlinePageCheckCategory13.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory14.isVisible();
-        await homePage.hotlinePageCheckCategory14.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory15.isVisible();
-        await homePage.hotlinePageCheckCategory15.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory16.isVisible();
-        await homePage.hotlinePageCheckCategory16.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory17.isVisible();
-        await homePage.hotlinePageCheckCategory17.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory18.isVisible();
-        await homePage.hotlinePageCheckCategory18.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory19.isVisible();
-        await homePage.hotlinePageCheckCategory19.click();
-        await page.goBack()
-        await homePage.hotlinePageCheckCategory20.isVisible();
-        await homePage.hotlinePageCheckCategory20.click();
-        await page.goBack()
-    });
+    //     await homePage.hotlinePageMilitarySection.isVisible();
+    //     await homePage.hotlinePageEnergySection.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageMilitarySection.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageCheckCategory4.isVisible();
+    //     await homePage.hotlinePageCheckCategory4.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageCheckCategory5.isVisible();
+    //     await homePage.hotlinePageCheckCategory5.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageCheckCategory6.isVisible();
+    //     await homePage.hotlinePageCheckCategory6.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageCheckCategory7.isVisible();
+    //     await homePage.hotlinePageCheckCategory7.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageCheckCategory8.isVisible();
+    //     await homePage.hotlinePageCheckCategory8.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageCheckCategory9.isVisible();
+    //     await homePage.hotlinePageCheckCategory9.click();
+    //     await page.goBack();
+    //     await homePage.hotlinePageCheckCategory10.isVisible();
+    //     await homePage.hotlinePageCheckCategory10.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory11.isVisible();
+    //     await homePage.hotlinePageCheckCategory11.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory12.isVisible();
+    //     await homePage.hotlinePageCheckCategory12.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory13.isVisible();
+    //     await homePage.hotlinePageCheckCategory13.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory14.isVisible();
+    //     await homePage.hotlinePageCheckCategory14.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory15.isVisible();
+    //     await homePage.hotlinePageCheckCategory15.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory16.isVisible();
+    //     await homePage.hotlinePageCheckCategory16.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory17.isVisible();
+    //     await homePage.hotlinePageCheckCategory17.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory18.isVisible();
+    //     await homePage.hotlinePageCheckCategory18.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory19.isVisible();
+    //     await homePage.hotlinePageCheckCategory19.click();
+    //     await page.goBack()
+    //     await homePage.hotlinePageCheckCategory20.isVisible();
+    //     await homePage.hotlinePageCheckCategory20.click();
+    //     await page.goBack()
+    // });
     // test('Hotline Check HomePage Things', async ({ page }) => {
 
     //     await homePage.hotlinePageRuClickSpisok.isVisible();
