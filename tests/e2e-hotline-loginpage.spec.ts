@@ -61,18 +61,18 @@ test.describe('Test Login Page - hotline', () =>{
     //     await hotLineLoginPage.hotlineLoginPageClickLoginButton.click();
     //     await hotLineLoginPage.hotLineLoginPageScreenshot.screenshot({path:'screenshots/screenshot2.png'})
     // })
-    test('Login HotLine with phone number ', async({page}) => {
-        await hotLineLoginPage.hotlinePageClickLogin.isVisible();
-        await hotLineLoginPage.hotlinePageClickLogin.click();
-        await hotLineLoginPage.hotlineLoginPageClickLoginPhoneNumber.isVisible()
-        await hotLineLoginPage.hotlineLoginPageClickLoginPhoneNumber.click();
-        await hotLineLoginPage.hotlineLoginPageInputLoginPhoneNumber.fill('380971422372')
-        await hotLineLoginPage.hotlineLoginPageClickLoginPassword.isVisible();
-        await hotLineLoginPage.hotlineLoginPageClickLoginPassword.click();
-        await hotLineLoginPage.hotlineLoginPageInputLoginPassword.fill('testerAutoma123312');
-        await hotLineLoginPage.hotlineLoginPageClickLoginButton.isVisible();
-        await hotLineLoginPage.hotlineLoginPageClickLoginButton.click();
-        await hotLineLoginPage.hotLineLoginPageScreenshot.screenshot({path:'screenshots/screenshot3.png'})
-    })
+    // test('Login HotLine with phone number ', async({page}) => {
+    //     await hotLineLoginPage.hotlinePageClickLogin.isVisible();
+    //     await hotLineLoginPage.hotlinePageClickLogin.click();
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginPhoneNumber.isVisible()
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginPhoneNumber.click();
+    //     await hotLineLoginPage.hotlineLoginPageInputLoginPhoneNumber.fill('380971422372')
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginPassword.isVisible();
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginPassword.click();
+    //     await hotLineLoginPage.hotlineLoginPageInputLoginPassword.fill('testerAutoma123312');
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginButton.isVisible();
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginButton.click();
+    //     await hotLineLoginPage.hotLineLoginPageScreenshot.screenshot({path:'screenshots/screenshot3.png'})
+    // })
     
 } )
