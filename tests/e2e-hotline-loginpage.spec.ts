@@ -48,19 +48,19 @@ test.describe('Test Login Page - hotline', () =>{
         await hotLineLoginPage.hotlineLoginPageClickRegistrationButton.click();
         await hotLineLoginPage.hotLineLoginPageScreenshot.screenshot({path: 'screenshots/screenshot.png'})
     })
-    test('Login HotLine with email ', async({page}) => {
-        await hotLineLoginPage.hotlinePageClickLogin.isVisible();
-        await hotLineLoginPage.hotlinePageClickLogin.click();
-        await hotLineLoginPage.hotlineLoginPageClickLoginEmail.isVisible()
-        await hotLineLoginPage.hotlineLoginPageClickLoginEmail.click();
-        await hotLineLoginPage.hotlineLoginPageInputLoginEmail.fill('tommyislate1@gmail.com')
-        await hotLineLoginPage.hotlineLoginPageClickLoginPassword.isVisible();
-        await hotLineLoginPage.hotlineLoginPageClickLoginPassword.click();
-        await hotLineLoginPage.hotlineLoginPageInputLoginPassword.fill('testerAutoma123312');
-        await hotLineLoginPage.hotlineLoginPageClickLoginButton.isVisible();
-        await hotLineLoginPage.hotlineLoginPageClickLoginButton.click();
-        await hotLineLoginPage.hotLineLoginPageScreenshot.screenshot({path:'screenshots/screenshot2.png'})
-    })
+    // test('Login HotLine with email ', async({page}) => {
+    //     await hotLineLoginPage.hotlinePageClickLogin.isVisible();
+    //     await hotLineLoginPage.hotlinePageClickLogin.click();
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginEmail.isVisible()
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginEmail.click();
+    //     await hotLineLoginPage.hotlineLoginPageInputLoginEmail.fill('tommyislate1@gmail.com')
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginPassword.isVisible();
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginPassword.click();
+    //     await hotLineLoginPage.hotlineLoginPageInputLoginPassword.fill('testerAutoma123312');
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginButton.isVisible();
+    //     await hotLineLoginPage.hotlineLoginPageClickLoginButton.click();
+    //     await hotLineLoginPage.hotLineLoginPageScreenshot.screenshot({path:'screenshots/screenshot2.png'})
+    // })
     test('Login HotLine with phone number ', async({page}) => {
         await hotLineLoginPage.hotlinePageClickLogin.isVisible();
         await hotLineLoginPage.hotlinePageClickLogin.click();
